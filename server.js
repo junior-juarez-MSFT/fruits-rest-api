@@ -60,7 +60,7 @@ app.get('/fruits/:id', (req, res) => {
     }
 });
 
-// Route to insert (POST) a new fruit
+// Route to insert (POST) a new fruit test comment
 app.post("/fruits", (req, res) => {
 
     if(req.body.id){
