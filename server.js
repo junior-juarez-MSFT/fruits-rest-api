@@ -36,7 +36,7 @@ const removeFruitById = (id) => {
     })
 }
 
-// Root of the API
+// Root of the API edit
 app.get('/', (req, res) => {
     res.json({message: 'Home'});
 });
