@@ -41,7 +41,7 @@ app.get('/', (req, res) => {
     res.json({message: 'Home'});
 });
 
-// Route to list all fruits
+// Route to list all fruits change
 app.get('/fruits', (req, res) => {
     res.json(fruits);
 });
